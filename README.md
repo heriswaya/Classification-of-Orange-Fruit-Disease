@@ -6,7 +6,7 @@ Proyek ini bertujuan untuk melakukan **klasifikasi gambar daun/buah jeruk** ke d
 - **Healthy**
 - **Melanose**
 
-Model dibangun menggunakan pendekatan **Transfer Learning dengan InceptionV4** dan diimplementasikan menggunakan **TensorFlow dan Keras**. Augmentasi gambar juga diterapkan untuk meningkatkan jumlah data dan performa model.
+Model dibangun menggunakan pendekatan **Transfer Learning dengan InceptionV3** dan diimplementasikan menggunakan **TensorFlow dan Keras**. Augmentasi gambar juga diterapkan untuk meningkatkan jumlah data dan performa model.
 
 ---
 
