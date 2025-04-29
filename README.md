@@ -1,8 +1,3 @@
-Berikut adalah contoh **`README.md`** yang merangkum keseluruhan proyek klasifikasi penyakit jeruk, mencakup penggunaan model, augmentasi, inference, dan evaluasi (termasuk hasil classification report dan screenshot prediksi):
-
----
-
-```markdown
 # Citrus Leaf Disease Classification using Deep Learning
 
 ## 📌 Deskripsi Proyek
@@ -125,9 +120,5 @@ Gambar diunggah dan diproses dengan model SavedModel (`.pb` format) menggunakan 
 
 ## 🙌 Kontributor
 Heriswaya – Mahasiswa Matematika UIN Sunan Kalijaga
-
----
-
-```
 
 ---
