@@ -85,11 +85,26 @@ Model diuji pada 1.575 gambar (525 per kelas) dan menghasilkan performa sebagai 
 
 ## 🖼️ Contoh Hasil Inferensi
 
-Berikut adalah salah satu contoh hasil prediksi:
+Berikut adalah contoh hasil prediksi (selengkapnya ada di file `.ipynb`):
 
-![Prediction](ae939b5a-203c-48ae-b178-d75444da2c2c.png)
-
-> **Prediction: Melanose (90.84%)**
+> Cek pertama:
+```
+File: canker_3.jpeg
+Predicted Class: Melanose
+Confidence: 90.84%
+```
+> Cek kedua:
+```
+File: inference_healthy (2).jpeg
+Predicted Class: Healthy
+Confidence: 99.32%
+```
+> Cek ketiga:
+```
+File: melanose_2 (1).jpeg
+Predicted Class: Melanose
+Confidence: 92.39%
+```
 
 Gambar diunggah dan diproses dengan model SavedModel (`.pb` format) menggunakan Google Colab.
 
@@ -100,15 +115,6 @@ Gambar diunggah dan diproses dengan model SavedModel (`.pb` format) menggunakan 
 - TensorFlow + Keras
 - OpenCV & skimage
 - Google Colab
-
----
-
-## ✅ Kriteria Pemenuhan Proyek
-- ✅ Model menggunakan arsitektur **Sequential**
-- ✅ Menggunakan layer `Conv2D` dan pooling melalui **base InceptionV4**
-- ✅ Data augmentasi dilakukan
-- ✅ SavedModel digunakan untuk **inference**
-- ✅ Terdapat **classification report** dan **screenshot hasil prediksi**
 
 ---
 
